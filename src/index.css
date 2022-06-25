@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(60deg, rgb(164, 164, 236), rgb(112, 242, 238));
+}
+.container {
+  width: 90vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.tours {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tour {
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1), -5px -5px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 1rem;
+}
+.tour img {
+  width: 80%;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0.5rem;
+  align-items: center;
+}
+.details h4:first-child {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+.details h4:last-child {
+  color: blue;
+  margin: 0 1rem;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+.info p {
+  font-size: 14px;
+}
+.btn {
+  margin: 1rem auto;
+  padding: 0.3rem 1rem;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(164, 13, 13);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  color: rgb(164, 13, 13);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.info button {
+  padding: 5px 20px;
+  color: blue;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: linear-gradient(
+    60deg,
+    rgba(196, 90, 90, 0.3),
+    rgba(152, 156, 226, 0.3)
+  );
+}
